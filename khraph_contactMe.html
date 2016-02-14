@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+					<title>khraph - Contact Me</title>
+					
+				<!-- Bootstrap -->
+						    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+						    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+						    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+						    <!--[if lt IE 9]>
+						      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+						      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		 		<![endif]-->
+
+		 					<style type="text/css">
+
+		 		/* Bounds of the page - Start */
+
+		 					html{
+			 						margin:0px;
+			 						padding:0px;
+			 						background: url(IMG_4890.JPG) no-repeat center center fixed; 
+						 			-webkit-background-size: cover;
+						 			-moz-background-size: cover;
+						 			-o-background-size: cover;
+									background-size: cover;
+							}
+					          
+					        body{
+					        	   margin:0px;
+					               padding:0px;
+					               font-family:"roboto", monospace;
+					        }		 					
+		 					#wrapper{
+		 						position: absolute;
+		 						top:0;
+		 						padding:0px;
+		 						margin:0px;
+		 						width:100%;
+		 					}
+		 					.clearDiv{
+			 					clear:both;
+			 				}
+
+			 	/* Bounds of the page - End */
+
+			 	/* Contents Top - Start*/
+
+		 					#header{
+			 					position:fixed;
+			 					top:0;
+			 					width:100%;
+			 					height:50px;
+			 					background-color:rgba(0,0,0,0.85);
+			 					z-index: 1;
+								text-align: center;
+		 						font-size: 1.5em;
+		 						padding-top:0;
+			 				}
+			 				#buttonHTML{
+			 					background-color:rgba(0,0,0,0);
+			 					outline-style: none;
+			 					border-style: none;
+			 					position: relative;
+			  					top: 50%;
+			  					transform: translateY(-50%);
+		 						font-size: 1.2em;
+		 						color:#d32e2e;
+		  						width:100%;
+			  					height: 100%;
+			 				}
+
+				/* Menu Toggle - Start */
+
+			 				#menuList{
+								position:fixed;
+					 			top:50px;
+					 			background-color:rgba(0,0,0,0.85); 
+								width:100%;
+					 			height:120px;
+								padding:0px;			 			
+								display:none;
+					 		}
+							a:visited{
+					 			color:#bcbcbc;
+							}
+					 		a{
+								color:#bcbcbc;
+		 					}
+					 		ul{
+					 			padding-left:0;\
+					 		}
+							ul li{
+								font-size: .85em;
+					 			list-style-type: none;
+					 		}
+					 		ul li a{
+					 			color:#bcbcbc;
+					 		}
+					 		ul li a:hover{
+					 			color:#e53934;
+					 			text-decoration: none;
+					 		}
+					 		.linkControl{
+					 			font-color:;
+					 		}
+					 		#siteNav{
+					 			display:block;
+					 			margin:auto;
+					 			margin-top:20px;
+					 			width: 640px;
+					 			height: 32px;
+					 			border-radius: 3px;
+					 			text-align: center;
+					 			font-size: 1.5em;
+					 			background-color:black;
+							}
+							#siteNav li{
+								float:left;
+					 			width:20%;
+					 			position: relative;
+					 			top:3px;
+					 		}
+						  	#siteNav img{
+						   		position: relative;
+								top:-12px;
+		 	        		}
+ 					
+				/* Menu Toggle - End */
+
+		 					#pgTitle{
+		 						margin:0;
+		 						padding:0;
+		 						position: relative;
+		 						top:40px;
+		 						height:50px;
+		 						width:200px;
+		 						background-color:rgba(0,0,0,0.85);
+		 						text-align: center;
+		 						color:grey;
+		 						box-shadow: 2px 2px #8fa4ad;
+
+		 					}
+		 					#pgTitle h2{
+							    position: relative;
+		  						top: 50%;
+		  						transform: translateY(-50%);
+		 					}
+
+		 		/* Contents Top - End */
+
+		 		/* Contents Body - Start*/
+
+		 					#container{
+		 						position:relative;
+		 						top:30px;
+		 						margin-bottom: 100px;
+		 					}
+		 					hr {
+		 						display: block;
+							    height: 1px;
+							    border: 0;
+							    border-top: 1px solid #000;
+							    margin: 1em 0;
+							    padding: 0; 
+		 					}
+		 					#aboutSection{
+		 						margin-top:20px;
+		 						margin-right: 20px;
+		 						margin-left: 20px;
+		 						margin-bottom:90px;
+		 						padding:25px;
+		 						background-color:rgba(255,255,255,0.85);
+		 						border-radius: 3px;
+		 					}
+		 					#aboutSection h1{
+		 						text-align: center
+		 					}
+		 					#aboutSection input{
+		 						width:100%;
+		 						height:30px;
+							    border: 1px solid #c4c4c4;
+							    font-size: 1.2em;
+							    padding: 4px;
+							    border-radius: 4px;
+							    -moz-border-radius: 4px;
+							    -webkit-border-radius: 4px;
+							    box-shadow: 0px 0px 8px #d9d9d9;
+							    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+							    -webkit-box-shadow: 0px 0px 8px #d9d9d9
+
+		 					}
+		 					#aboutSection input:focus{
+		 						outline: none;
+						    	border: 1px solid #7bc1f7;
+						    	box-shadow: 0px 0px 8px #7bc1f7;
+						    	-moz-box-shadow: 0px 0px 8px #7bc1f7;
+						    	-webkit-box-shadow: 0px 0px 8px #7bc1f7;
+		 					}
+		 					#aboutSection label{
+		 						margin:auto;
+		 						margin-bottom: 5px;
+		 					}
+		 					#aboutSection textarea{
+		 						width:100%;
+		 						height:100px;
+		 						border-style: none;
+		 						border: 1px solid #e0e0df;
+		 						border-radius: 4px;
+		 						margin-bottom: 10px;
+
+		 					}
+		 					#aboutSection p{
+		 						text-align: center;
+		 					}
+		 					#name{
+		 						float:right;
+		 					}
+		 					.nameTag{
+		 						margin:0;
+		 						padding:0;
+		 						color:#616161;
+		 					}
+		 					.aboutInfo{
+		 						color:#bdbcbc;
+		 					}
+
+		 		/* Contents Body - End */
+
+		 		/* Content Footer - Start */
+
+		 					#footer{
+			 					position: relative;
+			 					bottom:0;
+			 					width:100%;
+			 					height:150px;
+			 					padding:30px;
+			 					text-align: center;
+			 				}
+			 				.socialMediaButtons{
+			 					height:40px;
+			 					float:left;
+			 					margin:5px;
+			 				}
+			 				.linkSpace a img:hover{
+			 					height:40px;
+			 					width:40px;
+			 					border-radius:20px;
+			 					background-color:#455a64;
+			 				}
+			 				.linkSpace{
+			 					position:relative;
+			 					margin:0 auto;
+			 					height:60px;
+								width:250px;
+		 					}
+		 					#footerTag{
+		 						color:#8fa4ad;
+			 				}
+
+		 		/* misc start */  
+				        .media1140px{
+				               
+				        }
+				          
+				        .media768px{
+				               
+				        }
+				          
+				        .media618px{
+
+				               
+				        }
+				        .media1140px, .media768px, .media618px{
+				        }
+				/* misc end */ 
+				    	@media only screen and (min-width: 0px){
+						        		#siteNav{
+						        			display: none;
+						        		}
+
+						        	}
+
+				        @media only screen and (min-width: 640px) {
+				/* Contents Top - Start */
+							        		#header{
+							        			display: none;
+							        		}
+							        		#menuList{
+							        			display:block;
+							        			position:fixed;
+						 						top:50px;
+						 						background-color:rgba(0,0,0,0.85); 
+						 						width:100%;
+						 						height:120px;
+						 						padding:0px;
+								        	}
+								        	#siteNav{
+						        			display: block;
+						        			}
+
+				/* Contents Top - End */
+
+				/* Contents Body - Start */
+
+							        		#pgTitle{
+							        			position: relative;
+							        			top:-60px;
+							        		}
+							        		h2{
+							        			margin:0;
+							        			padding:0;
+							        		}
+								        	#container{
+								        		position: relative;
+								        		top:-50px;
+						 						margin-bottom: 25px;
+								        	}
+								        	#aboutSection{
+								        		width:735px;
+								        		margin:auto;
+								        	}
+								        	#aboutImage{
+								        		height:400px;
+								        	}
+								        	.thumbs{
+			 									position: relative;
+			 									top:-60px;
+			 								}
+							        }
+
+				/* Contents Body - End */
+
+
+		 					</style>
+
+		</head>
+	<body>
+			<div id="wrapper">
+				
+				<div id="header">
+
+					<button type="button" id="buttonHTML" class="menuButtonStyle" onclick="menuButtonToggle('menuList');">Menu</button>
+
+					<div id="menuList">
+						<ul>
+							<li><a class="linkControl" href="/">About</a></li>
+							<li><a class="linkControl" ="/">Gallery</a></li>
+							<li><a class="linkControl" href="/">Work</a></li>
+							<li><a class="linkControl" href="/">Contact Me</a></li>
+						</ul>
+						
+					</div>
+					
+				</div>
+
+				<div id="siteNav">
+
+					<ul>
+						<li><a class="linkControl" href="/">About</a></li>
+						<li><a class="linkControl" href="/">Gallery</a></li>
+						<li><a href=""><img src="khraphLogo-02.png" height="100px"></a></li>
+						<li><a class="linkControl" href="/">Work</a></li>
+						<li><a class="linkControl" href="/">Contact Me</a></li>
+					</ul>
+					
+				</div>
+
+				<div class="clearDiv"></div>
+
+				<div id="pgTitle"><h2>Contact Me</h2></div>
+
+				<div id="container">
+
+					<div id="aboutSection">
+
+						<h1 class="nameTag">Send Me an Email</h1>
+						<hr />
+						
+						<form>
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" placeholder="Name">
+							<br />
+							<label for="lastName">Last Name</label>
+							<input type="text" name="Last Name" id="lastName" placeholder="Last Name">
+							<br />
+							<label for="email">Email Address</label>
+							<input type="email" name="email-address" id="email" placeholder="Email">
+							<br />
+							<label for="Number">Telephone Number</label>
+							<input type="tel" name="phone-number" id="number" placeholder="###-###-####">
+							<br />
+							<label for="subject">Refferal</label>
+							<input type="text" name="refferalSpace" id="subject" placeholder="Who reffered you?">
+							<br />
+							<label for="subject">Subject</label>
+							<input type="text" name="subjectSpace" id="refferal" placeholder="Subject">
+							<br />
+							<label for="commentSection">Additional Information</label>
+							<textarea name="comment" placeholder="Type here" id="commentSection"></textarea>
+							<br />
+							<button type="submit" name="submit">Send</button>
+							<hr />
+							<p>If you are interested in booking me for photography events, taking headshots, creating flyers or posters ect. My going rate is $25 an hour. All website building inquiries are negotiable, please send me a message with your offer.</p>
+							
+
+						</form>
+							
+							
+						
+
+						
+					</div>
+					
+				</div>
+
+				<div id="footer">
+
+					<div class="linkSpace">
+
+						<div id="link">
+							<a href="https://www.facebook.com/khep24">
+								<img class="socialMediaButtons" src="facebookRed.png">
+							</a>
+						</div>
+						
+						<a href="https://www.instagram.com/chefkray/" >
+							<img class="socialMediaButtons" src="gramRed.png">
+						</a>
+						
+						<a href="https://www.linkedin.com/in/kheperahray">
+							<img class="socialMediaButtons" src="linkedIn-05.png">
+						</a>
+						<a href="http://khray.tumblr.com/">
+							<img class="socialMediaButtons" src="tumblrRed.png">
+						</a>
+						
+						<a href="https://twitter.com/That_Shit_Khray">
+							<img class="socialMediaButtons" src="twitterRed.png">
+						</a>
+					
+					</div>
+
+					<h4 id="footerTag">Created By Kheperah Ray</h4>
+										
+				</div>
+				
+			</div>
+							<!-- JavaScript-->
+							<script type="text/javascript">
+
+									function menuButtonToggle(id) {
+
+										var toggle = document.getElementById(id);
+
+										if(toggle.style.display == 'block')
+											toggle.style.display = 'none';
+										else
+											toggle.style.display = 'block';
+
+									}
+
+
+							</script>
+							<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+						    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+						    <!-- Include all compiled plugins (below), or include individual files as needed -->
+						    <script src="bootstrap.min.js">
+
+
+
+
+						    </script>
+	</body>
+</html>
